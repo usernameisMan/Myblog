@@ -1,0 +1,338 @@
+html{overflow-x: hidden;overflow-y: scroll;}
+html,body{width: 100%; height: 100%;margin:0 !important; }
+*{font-family: Microsoft YaHei,Simsun,Arial,Helvetica,sans-serif;vertical-align: top}
+.transition{transition: all 0.5s;};
+body img{border-style:none !important;}
+body{margin: 0 !important;background: white;}
+h1,h2,h3,h4,h5{display: inline-block; margin-top: 0em;margin-bottom: 0em;margin-right: 0px;margin-left: 0px;}
+a{color:black;text-decoration: none;cursor: auto;}
+p{ margin: 0px;  display: block;-webkit-margin-before: 0em;-webkit-margin-after: 0em; -webkit-margin-start: 0px;-webkit-margin-end: 0px;}
+a:hover{color: crimson;/* font-size: 20px; */outline: none !important;text-decoration:none !important;}
+input{border: 0;border-width: 1px;border-style: inset;border-color: initial;border-image: initial;}
+.inline_block{display: inline-block;}
+em{font-style: normal;cursor: pointer;}
+ul{margin: 0; padding: 0;-webkit-padding-start: 0px;}
+li{list-style-type: none;}
+.Fleft{float: left;}
+.Fright{float: right;}
+input { border: 0;border-width: 0px;border-style: inset; border-color: initial; background-color: rgba(255, 255, 255, 0);outline:none !important;}
+button{outline:none !important;}
+a:link {color: #000}
+a:hover {color: #000}	
+.text-center{text-align: center !important;}
+.clear-border{border: 0px solid lightgrey !important;}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+    width: 5px;  
+    height: 5px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #555;  
+} 
+/*-------------------------------*/
+/*路由切换效果*/
+.example-enter {
+  opacity: 0.01;
+  transition: all 1s;
+  transform:translate(-120px,0)
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: all 1s ;
+  transform:translate(0px,0)
+}
+
+.example-leave {
+  opacity: 1;
+  transition: all 1s ;
+   transform:translate(0,0);
+}
+
+.example-leave.example-leave-active {
+   transform:translate(2000px,0);
+   transition: all 1s ;
+  opacity: 0;
+}
+
+.link-active {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+.boxDefault{
+  width:260px;
+  height: 340px;
+  display: inline-block;
+  background: rgb(55, 61, 65);
+  position: absolute;
+  overflow: hidden;
+}
+.boxDefault > .logo{
+  width:60px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.boxDefault > .logo > img{
+  display: block;
+  width: 100%;
+}
+
+.boxDefault > .title{
+  color: #616467;
+  font-size: 20px;
+  font-weight: 500;
+  width:124px;
+  height: 50px;
+  margin-top: 130px;
+  margin-left: 30px;
+}
+
+.boxDefault > .message{
+  border-top: 1px solid #616467;
+  width: 200px;
+  padding: 5px;
+  margin: 30px auto;
+}
+.boxDefault > .message .left{
+    float: left;
+    color: #616467;
+    font-weight: 700;
+    font-size: 13px;
+}
+.boxDefault > .message .right{
+  float: right;
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+
+.ComBoxImg{
+  width:260px;
+  height: 340px;
+  display: inline-block;
+  background: rgb(55, 61, 65);
+  position: absolute;
+  overflow: hidden;
+}
+.ComBoxImg > .title {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 124px;
+    height: 50px;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+.ComBoxImg > .message{
+  border-top: 1px solid white;
+  width: 200px;
+  padding: 5px;
+  margin: 30px auto;
+      margin-top: 220px;
+}
+.ComBoxImg > .message .left{
+    float: left;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+}
+.ComBoxImg > .message .right{
+  float: right;
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+
+
+.ComBoxColor{
+  width:260px;
+  height: 340px;
+  display: inline-block;
+  background: #9f35f8;
+  position: absolute;
+  overflow: hidden;
+}
+.ComBoxColor > .title {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 124px;
+    height: 50px;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+.ComBoxColor > .message{
+  border-top: 1px solid white;
+  width: 200px;
+  padding: 5px;
+  margin: 30px auto;
+      margin-top: 220px;
+}
+.ComBoxColor > .message .left{
+    float: left;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+}
+.ComBoxColor > .message .right{
+  float: right;
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+
+
+.ComBoxList{
+  width:260px;
+  height: 340px;
+  display: inline-block;
+  background: white;
+  position: absolute;
+  overflow: hidden;
+  transition:all 0.6s;
+}
+
+.ComBoxList > .title {
+    color: 9f35f8;
+    font-size: 20px;
+    font-weight: 500;
+    width: 124px;
+    height: 50px;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+.ComBoxList > .message{
+  border-top: 1px solid rgb(55, 61, 65);
+  width: 200px;
+  padding: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  right: 0px;
+  margin: auto
+}
+.ComBoxList > .message .left{
+    float: left;
+    color: rgb(55, 61, 65);
+    font-weight: 700;
+    font-size: 13px;
+}
+.ComBoxList > .message .right{
+  float: right;
+  color: rgb(55, 61, 65);
+  font-weight: 100;
+  font-size: 15px;
+}
+.ComBoxList>.list{
+  width:260px;
+  height: 180px;
+  transition:all 0.3s;
+  overflow-y:scroll;
+  margin-top: 20px;
+}
+.ComBoxList>.list>a{
+    text-align: left;
+    text-indent: 30px;
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 100;
+    display: block;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.box1{
+  transform: translate3d(0px, 0px, 0px);
+  animation:box1 0.5s ;
+}
+.box2{
+  transform: translate3d(290px, 0px, 0px);
+  animation:box2 1s ;
+}
+.box3{
+  transform: translate3d(580px, 0px, 0px);
+  animation:box3 1.5s ;
+}
+.box4{
+  transform: translate3d(870px, 0px, 0px);
+  animation:box4 2s ;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .Nav_box {
+    width: 840px !important;
+  }
+.Nav_box .right .meun_box{
+    width:550px !important;
+  } 
+  .max_body{
+    width: 840px !important;
+  }
+  .Nav_box .right{
+   width: 610px !important;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .Nav_box {
+    width: 550px !important;
+  }
+.Nav_box .right .meun_box{
+    width:550px !important;
+  } 
+  .max_body{
+    width: 550px !important;
+  }
+  .Nav_box .right{
+   width: 610px !important;
+  }
+  .Nav_box .left{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 660px){
+  .max_body {
+      width: 260px !important;
+  }
+    .Nav_box{
+     width: 260px !important;
+     height: 60px !important;
+  }
+  .Nav_box .right{
+     display: none;
+  }  
+
+}
+@media screen and (max-width: 414px){
+  .Mobile_nav{
+      display:block !important;
+  }
+}

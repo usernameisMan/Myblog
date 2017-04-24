@@ -1,0 +1,10 @@
+{
+    "data":[
+        {"title": "陆权论", "url": "http://react-components.com/","type":"ComBoxList","lists":["asd"]},
+        {"title": "空权论", "url": "https://github.com/reactjs","type":"ComBoxList","lists":["asd","测试内测试内容测试内容测试内容测试内容容","测试内容","测试内容","测试内容","测试内容","测试内容","测试内容","asd"]},
+        {"title": "海权论", "url": "http://react-components.com/","type":"ComBoxList","lists":["asd"]},
+         {"title": "德国地缘政治", "url": "http://react-components.com/","type":"ComBoxList","lists":["asd"]}
+    ],
+    "type":"a"
+}
+

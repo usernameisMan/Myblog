@@ -1,0 +1,439 @@
+body{
+    background-color: #2e3438;
+}
+/*
+ 主容器
+*/
+.max_body{
+    width: 100%;
+    max-width: 1130px;
+    min-height: 20px;
+    margin:0  auto;
+}
+
+/*
+    导航
+*/
+.Nav_box{
+    max-width: 1130px;
+    height: 133px;
+    margin: 0px 0px 30px;
+    transition: all 0.6s;
+}
+.Nav_box .left{
+    width: 105px;
+    color: #8b8b8b;
+    overflow: hidden;
+    font-size: 10px;
+    float: left;
+    margin-top: 27px;
+    height: 16px;
+    position: relative
+}
+.Nav_box .left >div{
+    width: 300px;
+}
+.Nav_box .left a:nth-child(1){
+    height: 16px;
+    width: 105px;
+    float: left;
+    transition: all 0.3s;
+    color: #adabab;
+}
+.Nav_box .left a:nth-child(2){
+    height: 16px;
+    width: 105px;
+    float: left;
+    transition: all 0.3s;
+    color: white;
+}
+.Nav_box .left  .move{
+    margin-left: -110px;
+}
+.Nav_box .right{
+     width: 900px;
+     height: 100%;
+     float: right;
+}
+.Nav_box .right .search{
+    position: relative;
+    width:60px;
+    height: 60px;
+    background-color:#8d2fdc;
+    cursor: pointer;
+    overflow: hidden;
+}
+.Nav_box .right .search>div{
+    width:19px;
+    display:block;
+}
+
+.Nav_box .right .search img{
+    width:19px;
+    height:19px;
+    display:block;
+    top: 0px;left: 0px;right: 0px;bottom: 0;
+    position: absolute;
+    margin: auto;
+    transition: all 0.2s;
+}
+
+.Nav_box .right .search .moveleft{
+    left: -80px;
+    transition: all 0.2s;
+    
+}
+.Nav_box .right .search .imgright{
+    right: -80px;
+    transition: all 0.2s;
+}
+.Nav_box .right .search .moveright{
+     right:0px;
+    transition: all 0.2s;
+}
+.Nav_box .right .meun_box{
+     width: 840px;
+     height: 100%;
+     background-color:#9f35f8;
+}
+.Nav_box .right .logo{
+    margin-top: 16px;
+    margin-left: 18px;
+    width: 168px;
+    height: 34px;
+    overflow: hidden;
+}
+.Nav_box .right .logo div{
+    width: 350px;
+    height: 100%;
+    display: block
+}
+.Nav_box .right .logo img{
+    width: 168px;
+    height: 34px;
+    display: inline-block;
+    transition: all 0.4s;
+
+}
+.Nav_box .right .logo .imgmove{
+    margin-left: -218px;
+    transition: all 0.4s;
+        margin-right: 50px;
+}
+.Nav_box .right .meun{
+    margin-left: 100px;
+    margin-top: 20px;
+    position: relative
+}
+.Nav_box .right .meun a{
+    font-size: 13px;
+    line-height: 19px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Nav_box .right .meun li{
+    position: relative
+}
+.Nav_box .right .meun .line{
+    width: 30px;
+    background:white;
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 70px;
+    transition: all 0.2s;
+}
+.Nav_box .right .meun .lineNone{
+    width: 0px;
+    background:white;
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 70px;
+    transition: all 1s;
+}
+.Nav_box .right .hef{
+    width: 80px;
+    height: 20px;
+    float: right;
+    margin-right: 11px;
+    margin-top: 20px;
+}
+.Nav_box .right .hef .none{ 
+    display: none;
+}
+.Nav_box .right .hef .block{
+    display: block;
+}
+.Nav_box .right .hef>span{
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    cursor: pointer
+
+}
+.Nav_box .right .hef>span>div{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    border-radius: 5px;
+    background: white;
+    top: 26px;
+    left: -62px;
+    z-index: 9999;
+}
+.Nav_box .right .hef>span>div:before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid white;
+    top: -10px;
+    position: absolute;
+    left: 0;
+    right: 0px;
+    margin: 0 auto
+}
+.Nav_box .right .hef>span>img{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+/*Project*/
+.DataLoadWaitShow{
+    display: block
+}
+.DataLoadWaiNone{
+    display: none
+}
+.pageWaitShow{
+    display: block
+}
+.pageWaitShowNone{
+    display: none
+}
+/*Mobile_Nav*/
+.Mobile_nav{
+    display: none
+}
+.Mobile_nav_top{
+
+}
+.Mobile_nav_top img{
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+    margin-top: 11px;
+}
+.Mobile_nav_top>div{
+    background: #8d2fdc;
+    width: 60px;
+    height: 60px;
+    position: relative
+}
+.Mobile_nav_top>div>img{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0px;
+    margin: auto;
+    width: 30px
+}
+.Mobile_nav_list{
+    background: #8d2fdc;
+}
+.Mobile_nav_list > a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 0px;
+}
+
+.Mobile_nav_search>input {
+    height: 10px;
+    background: white;
+    width: 170px;
+    font-size: 18px;
+    text-indent: 10px;
+    color: darkgray;
+    font-weight: 200;
+    padding: 20px;
+}
+.Mobile_nav_search>div{
+    width: 50px;
+    height: 50px;
+    background: white;
+    position: relative
+}
+.Mobile_nav_search>div>img{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0px;
+    margin: auto;
+    width: 30px
+}
+.Mobile_nav{
+    width: 100%;
+    max-height: 60px;
+    transition: all 0.6s;
+    background: #9f35f8;
+    overflow: hidden;
+}
+.Nav_box_addH{
+    height: 260px !important;
+}
+.Nav_box_Mobile{
+    max-height: 311px !important;
+    transition: all 1s;
+}
+
+
+.Study_selectlist{
+    width: 100%;
+    height: 40px;
+    background-color: #8d2fdc;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Study_selectlist .Promote{
+    float: left;
+    font-size: 29px;
+    color: white;
+    font-weight: 100;
+    margin-left:30px;
+}
+.Study_selectlist .select_input_box{
+    margin-left: 52px;
+    float: left
+}
+
+.Study_selectlist .select_input_box .select_input_l{
+    width: 260px;
+    height: 40px;
+    background: #9f35f8;
+    display: inline-block;
+    position: relative;
+        border-radius: 4px;
+         cursor: pointer
+}
+
+.Study_selectlist .select_input_box .select_input_r{
+    width: 260px;
+    height: 40px;
+    background: #9f35f8;
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;    
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.Study_selectlist .select_input_box .box{
+
+}
+.Study_selectlist .select_input_box .showBox{
+    display: inline-block;
+    float: left;
+    padding: 9px;
+    text-align: left;
+    width: 202px;
+    text-indent: 16px;
+    font-weight: 500;
+    color: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.Study_selectlist .select_input_box .Arrow{
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: #a262d8;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; 
+    position: relative;  
+}
+.Study_selectlist .select_input_box .Arrow span{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    transition:all 0.3s;
+}
+.box:hover .Arrow span{
+    top: 10px;
+}
+
+.select_input_l  .list{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 0px;
+    background: #9f35f8;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    transition:all 0.3s;
+    border-radius: 4px;
+    z-index: 9999;
+    overflow-y: scroll  
+}
+.select_input_r .list{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 0px;
+    background: #9f35f8;    
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    transition:all 0.3s;
+    border-radius: 4px;
+    z-index: 9999;
+    overflow-y: scroll    
+}
+.select_input_r:hover .list{
+    height:200px;
+}
+.select_input_l:hover .list{
+    height:200px;
+}
+.select_input_box .list span{
+    display: block;
+    padding: 4px;
+    font-size: 15px;
+    text-indent: 21px;
+    color: white;
+    font-weight: 100;
+    transition: all 0.3s;
+}
+.select_input_box .list span:hover{
+    display: block;
+    padding: 4px;
+    font-size: 17px;
+    text-indent: 30px;
+    color: white;
+    font-weight: 500;
+}
+.active+span{
+        width: 30px !important;
+}

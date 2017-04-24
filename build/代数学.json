@@ -1,0 +1,12 @@
+{
+    "data":[
+        {"title": "线性代数", "url": "http://react-components.com/","type":"ComBoxList","lists":["asd"]},
+        {"title": "群论", "url": "https://github.com/reactjs","type":"ComBoxList","lists":["asd","测试内测试内容测试内容测试内容测试内容容","测试内容","测试内容","测试内容","测试内容","测试内容","测试内容","asd"]},
+        {"title": "有理数", "url": "http://react-components.com/","type":"ComBoxList","lists":["asd"]},
+        {"title": "无理数", "url": "https://github.com/reactjs","type":"ComBoxList","lists":["asd","测试内测试内容测试内容测试内容测试内容容","测试内容","测试内容","测试内容","测试内容","测试内容","asd"]},
+        {"title": "整式方程", "url": "http://react-components.com/","type":"ComBoxList","lists":["asd"]},
+        {"title": "分式方程", "url": "https://github.com/reactjs","type":"ComBoxList","lists":["ad","测试内测试内容测试内容测试内容测试内容容","测试内容","测试内容","测试内容","测试内容","asd","测试内容"]}
+    ],
+    "type":"a"
+}
+
