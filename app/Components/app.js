@@ -13,6 +13,8 @@ import Com_Project from './Com_Project.jsx' //项目组件
 import Com_Studynotes from './Com_Studynotes.jsx' //学习笔记组件
 import Com_Sravelnotes from './Com_Sravelnotes.jsx' //旅行笔记组件
 import Com_FunSharing from './Com_FunSharing.jsx'
+import Com_content from './Com_content.jsx'
+
 class App extends React.Component{
     constructor(props){
         super(props)
@@ -25,12 +27,11 @@ class App extends React.Component{
             <div className='max_body'>
                 <Router history={hashHistory}>
                     <Route path="/" component={Com_Navigation} >
-                        <IndexRoute component={Com_Project} 
-                            onLeave={clearData}
-                        />
+                        <IndexRoute component={Com_Project} onLeave={clearData}/>
                         <Route path="Studynotes" component={Com_Studynotes}/>
                         <Route path="Sravelnotes" component={Com_Sravelnotes}/>
                         <Route path="FunSharing" component={Com_FunSharing}/>
+                        <Route path="content" component={Com_content}/>
                     </Route>
                 </Router>
             </div>

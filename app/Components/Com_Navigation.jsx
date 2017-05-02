@@ -83,7 +83,7 @@ class Com_Navigation extends React.Component{
                                 <li
                                 onMouseOver={()=>mouseOver(4)}
                                 onMouseOut={()=>mouseOut(4)}                  
-                                ><Link to="/resume" activeClassName="active" >我的简历</Link><span className={isTouchs[3].isTouch?"line":"lineNone"}></span></li>
+                                ><Link to="/content?name=1" activeClassName="active" >我的简历</Link><span className={isTouchs[3].isTouch?"line":"lineNone"}></span></li>
                                 <li
                                 onMouseOver={()=>mouseOver(5)}
                                 onMouseOut={()=>mouseOut(5)}        

@@ -435,5 +435,35 @@ body{
     font-weight: 500;
 }
 .active+span{
-        width: 30px !important;
+    width: 30px !important;
+}
+.contentBox{
+    position:relative;
+}
+.contentBox .centerbox{
+    background: #F4F4F4;
+    min-height: 500px;
+    word-wrap: break-word;
+    position: relative;
+}
+.contentBox .text{
+    padding: 10px;
+    color: #565656;
+    font-weight: 100;
+    
+}
+.centerbox .title{
+     background: #ECECEC;
+    height: 67px;
+    margin-bottom: 15px;
+    text-align: left;
+    text-indent: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    color: #565656;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 69px;
 }

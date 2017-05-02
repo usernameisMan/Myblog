@@ -9,8 +9,8 @@
 6 silly lifecycle webane@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle webane@1.0.0~start: webane@1.0.0
 8 verbose lifecycle webane@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle webane@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\CODE\javascriptCODE\React\博客\node_modules\.bin;C:\Python27\Lib\site-packages\PyQt4;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Java\jdk1.8.0_91\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 2.7;C:\Python27;D:\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\Node.js\node_modules\npm\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\android\android-sdk-windows\platform-tools;E:\android\android-sdk-windows\tools;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\nodejs\;;D:\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm
-10 verbose lifecycle webane@1.0.0~start: CWD: E:\CODE\javascriptCODE\React\博客
+9 verbose lifecycle webane@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\CODE\javascriptCODE\React\Myblog\Myblog\node_modules\.bin;C:\Python27\Lib\site-packages\PyQt4;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Administrator\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Java\jdk1.8.0_91\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 2.7;C:\Python27;D:\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\Node.js\node_modules\npm\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\android\android-sdk-windows\platform-tools;E:\android\android-sdk-windows\tools;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\nodejs\;;D:\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm
+10 verbose lifecycle webane@1.0.0~start: CWD: E:\CODE\javascriptCODE\React\Myblog\Myblog
 11 silly lifecycle webane@1.0.0~start: Args: [ '/d /s /c', 'webpack-dev-server --host 0.0.0.0 ' ]
 12 silly lifecycle webane@1.0.0~start: Returned: code: 3221225786  signal: null
 13 info lifecycle webane@1.0.0~start: Failed to exec start script
@@ -25,7 +25,7 @@
 14 verbose stack     at maybeClose (internal/child_process.js:886:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid webane@1.0.0
-16 verbose cwd E:\CODE\javascriptCODE\React\博客
+16 verbose cwd E:\CODE\javascriptCODE\React\Myblog\Myblog
 17 error Windows_NT 10.0.14393
 18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
 19 error node v6.10.1
