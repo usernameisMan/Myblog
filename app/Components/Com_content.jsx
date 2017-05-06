@@ -57,3 +57,4 @@ class Com_content extends React.Component{
 
 
 export default connect()(Com_content)
+
