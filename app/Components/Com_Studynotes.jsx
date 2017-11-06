@@ -199,7 +199,7 @@ class Com_Studynotes extends React.Component{
                 nowsecondary:data[data.mainLists[0]][0],
                 ListData:data
             });
-           this.loadData('data.json');
+           this.loadData('./data.json');
         }))
         .catch((e) => {console.log(e.message)});  
 
@@ -244,7 +244,7 @@ const  mapDispatchToProps = (dispatch,ownProps)=>{
             dispatch(mouseOut(key,text));
         },
         getData:()=>{
-            dispatch(req('data.json'))
+            dispatch(req('./data.json'))
         }      
     }
 }

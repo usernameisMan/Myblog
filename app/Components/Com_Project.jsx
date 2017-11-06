@@ -117,7 +117,7 @@ class Com_Project extends React.Component{
             'Content-Type': 'text/plain'
         });   
         
-        fetch('data.json')
+        fetch('./data.json')
         .then((res)=>{
             return res.json();
         }).then((data=>{
@@ -168,7 +168,7 @@ const  mapDispatchToProps = (dispatch,ownProps)=>{
             dispatch(mouseOut(key,text));
         },
         getData:()=>{
-            dispatch(req('data.json'))
+            dispatch(req('./data.json'))
         }      
     }
 }

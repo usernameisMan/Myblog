@@ -117,7 +117,7 @@ class Com_FunSharing extends React.Component{
             'Content-Type': 'text/plain'
         });   
         
-        fetch('data.json')
+        fetch('./data.json')
         .then((res)=>{
             return res.json();
         }).then((data=>{
