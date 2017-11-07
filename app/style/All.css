@@ -316,6 +316,24 @@ a:hover {color: #000}
   .Nav_box .left{
     display: none;
   }
+  .Study_selectlist .select_input_box{
+    float: inherit !important;
+    margin-left: 0px !important;
+    margin-top: 42px;
+    text-align: center;
+  }
+  .select_input_box .list span{
+    text-indent: 0px !important;
+  }
+  .Study_selectlist{
+    height: 75px !important;
+  }
+  .Study_selectlist .select_input_box > div{
+    width: 244px !important;
+  }
+  .Study_selectlist .select_input_box .showBox{
+    width: 164px !important;
+  } 
 }
 
 @media screen and (max-width: 660px){
@@ -334,5 +352,15 @@ a:hover {color: #000}
 @media screen and (max-width: 414px){
   .Mobile_nav{
       display:block !important;
+  }
+  .Study_selectlist{
+    height: 115px !important;
+    -moz-box-shadow: 7px 12px 9px #5a5a5a;
+    -webkit-box-shadow: 7px 12px 9px #5a5a5a;
+    box-shadow: 7px 12px 9px #5a5a5a;
+  }
+  .Study_selectlist .select_input_box > div{
+    margin-left: 0px !important;
+    margin-top: 10px;
   }
 }
